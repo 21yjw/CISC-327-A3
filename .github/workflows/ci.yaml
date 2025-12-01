@@ -40,7 +40,7 @@ jobs:
                 python -m pip install playwright
                 python -m pip install flask
                 python -m pip install requests
-                playwright install
+                python -m playwright install
             
             - name: Run tests
               run: pytest tests/
