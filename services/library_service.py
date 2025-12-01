@@ -27,6 +27,7 @@ def add_book_to_catalog(title: str, author: str, isbn: str, total_copies: int) -
     Returns:
         tuple: (success: bool, message: str)
     """
+    
     # Input validation
     if not title or not title.strip():
         return False, "Title is required."
